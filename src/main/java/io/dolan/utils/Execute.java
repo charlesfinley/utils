@@ -1,3 +1,5 @@
+package io.dolan.utils;
+
 import static org.junit.Assert.fail;
 
 /**
@@ -19,14 +21,14 @@ public class Execute {
         try {
             executable.run();
             fail("Should have thrown " + exceptionClass + " but did not throw an exception.");
-        } catch {
+        } catch (Throwable e) {
             if (!exceptionClass.isInstance(e)) {
                 fail("Expected throwable of type " + exceptionClass + " but received " + e);
             }
         }
     }
 
-    public interface Executable() {
+    public interface Executable {
         void run() throws Throwable;
     }
 }
