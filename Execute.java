@@ -1,3 +1,9 @@
+import static org.junit.Assert.fail;
+
+/**
+ * Utility class borrowed from a Co-worker (JT) that is useful for testing exceptions.
+ */
+
 public class Execute {
     private final Executable executable;
 
