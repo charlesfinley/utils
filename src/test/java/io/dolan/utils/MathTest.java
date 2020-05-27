@@ -11,4 +11,10 @@ public class MathTest {
         assertEquals(6, Math.getSum(3, 3));
     }
 
+    @Test
+    public void testMath() {
+        Math math = new Math();
+        assertNotNull(math);
+    }
+
 }
