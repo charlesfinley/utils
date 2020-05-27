@@ -6,5 +6,8 @@ branches:
 
 script: "mvn clean package"
 
+install:
+  ""
+
 after_success:
   - bash <(curl -s https://codecov.io/bash)
