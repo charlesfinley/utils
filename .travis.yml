@@ -4,10 +4,8 @@ branches:
   only:
     - master
 
-script: "mvn clean package"
-
 install:
-  ""
+  "mvn clean package"
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
