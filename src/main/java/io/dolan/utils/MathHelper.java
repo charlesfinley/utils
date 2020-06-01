@@ -1,6 +1,6 @@
 package io.dolan.utils;
 
-public class Math {
+public class MathHelper {
 
     public static int getSum(int a, int b) {
         return a + b;

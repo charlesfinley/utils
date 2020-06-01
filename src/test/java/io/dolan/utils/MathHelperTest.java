@@ -4,17 +4,17 @@ import org.junit.Test;
 
 import static org.junit.Assert.*;
 
-public class MathTest {
+public class MathHelperTest {
 
     @Test
     public void testGetSum() {
-        assertEquals(6, Math.getSum(3, 3));
+        assertEquals(6, MathHelper.getSum(3, 3));
     }
 
     @Test
     public void testMath() {
-        Math math = new Math();
-        assertNotNull(math);
+        MathHelper mathHelper = new MathHelper();
+        assertNotNull(mathHelper);
     }
 
 }
