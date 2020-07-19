@@ -1,6 +1,6 @@
 package io.dolan.utils;
 
-import static org.junit.Assert.fail;
+import static org.junit.jupiter.api.Assertions.fail;
 
 /**
  * Utility class borrowed from a Co-worker (JT) that is useful for testing exceptions.
