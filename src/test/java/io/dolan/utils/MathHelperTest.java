@@ -15,6 +15,11 @@ public class MathHelperTest {
     }
 
     @Test
+    public void testGetProduct() {
+        assertEquals(6, MathHelper.getProduct(2,3));
+    }
+
+    @Test
     public void testMath() {
         MathHelper mathHelper = new MathHelper();
         assertNotNull(mathHelper);
